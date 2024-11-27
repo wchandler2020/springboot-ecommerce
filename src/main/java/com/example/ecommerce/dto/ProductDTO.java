@@ -19,5 +19,6 @@ public class ProductDTO {
     private BigDecimal price;
     @PositiveOrZero(message = "Price cannot be a zero or a negative number")
     private Integer quantity;
+    private String image;
     private List<CommentDTO> comments;
 }
